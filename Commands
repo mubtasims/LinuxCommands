@@ -10,3 +10,7 @@ uptime # Show how long the system has been running + load
 
 hostname # Show system host name
 
+hostname -I # Display the IP addresses of the host
+
+last reboot # Show system reboot history
+
