@@ -1,0 +1,12 @@
+1 - SYSTEM INFORMATION
+
+uname -a # Display Linux system information
+
+uname -r # Display kernel release information
+
+cat /etc/redhat-release # Show which version of redhat installed
+
+uptime # Show how long the system has been running + load
+
+hostname # Show system host name
+
