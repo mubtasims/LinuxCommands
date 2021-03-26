@@ -14,3 +14,10 @@ hostname -I # Display the IP addresses of the host
 
 last reboot # Show system reboot history
 
+date # Show the current date and time
+
+cal # Show this month's calendar
+
+w # Display who is online
+
+whoami # Who you are logged in as
