@@ -25,3 +25,10 @@ whoami # Who you are logged in as
 
 2 - HARDWARE INFORMATION
 
+dmesg # Display messages in kernel ring buffer
+
+cat /proc/cpuinfo # Display CPU information
+
+cat /proc/meminfo # Display memory information
+
+free -h # Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
