@@ -32,3 +32,15 @@ cat /proc/cpuinfo # Display CPU information
 cat /proc/meminfo # Display memory information
 
 free -h # Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
+
+lspci -tv # Display PCI devices
+
+lsusb -tv # Display USB devices
+
+dmidecode # Display DMI/SMBIOS (hardware info) from the BIOS
+
+hdparm -i /dev/sda # Show info about disk sda
+
+hdparm -tT /dev/sda # Perform a read speed test on disk sda
+
+badblocks -s /dev/sda # Test for unreadable blocks on disk sda
