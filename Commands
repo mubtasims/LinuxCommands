@@ -70,3 +70,5 @@ lsof # List all open files on the system
 lsof -u user # List files opened by user
 
 free -h # Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
+
+watch df -h # Execute "df -h", showing periodic updates
