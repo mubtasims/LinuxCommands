@@ -44,3 +44,7 @@ hdparm -i /dev/sda # Show info about disk sda
 hdparm -tT /dev/sda # Perform a read speed test on disk sda
 
 badblocks -s /dev/sda # Test for unreadable blocks on disk sda
+
+3 - PERFORMANCE MONITORING AND STATISTICS
+
+
