@@ -45,6 +45,7 @@ hdparm -tT /dev/sda # Perform a read speed test on disk sda
 
 badblocks -s /dev/sda # Test for unreadable blocks on disk sda
 
+
 3 - PERFORMANCE MONITORING AND STATISTICS
 
 
@@ -53,3 +54,9 @@ top # Display and manage the top processes
 htop # Interactive process viewer (top alternative)
 
 mpstat 1 # Display processor related statistics
+
+vmstat 1 # Display virtual memory statistics
+
+iostat 1 # Display I/O statistics
+
+tail 100 /var/log/messages # Display the last 100 syslog messages (Use/var/log/syslog for Debian based systems.)
