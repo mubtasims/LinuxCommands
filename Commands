@@ -48,3 +48,8 @@ badblocks -s /dev/sda # Test for unreadable blocks on disk sda
 3 - PERFORMANCE MONITORING AND STATISTICS
 
 
+top # Display and manage the top processes
+
+htop # Interactive process viewer (top alternative)
+
+mpstat 1 # Display processor related statistics
