@@ -64,3 +64,7 @@ tail 100 /var/log/messages # Display the last 100 syslog messages (Use/var/log/s
 tcpdump -i eth0 # Capture and display all packets on interface eth0
 
 tcpdump -i eth0 'port 80' # Monitor all traffic on port 80 (HTTP)
+
+lsof # List all open files on the system
+
+lsof -u user # List files opened by user
