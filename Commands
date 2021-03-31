@@ -72,3 +72,15 @@ lsof -u user # List files opened by user
 free -h # Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
 
 watch df -h # Execute "df -h", showing periodic updates
+
+
+4 - USER INFORMATION AND MANAGEMENT
+
+
+id # Display the user and group ids of your current user.
+
+last # Display the last users who have logged onto the system.
+
+who # Show who is logged into the system.
+
+w # Show who is logged in and what they are doing.
