@@ -10,3 +10,9 @@ help (help with commands)
 find (search for a file)
 quit (exit grub shell)
 
+GRUB 2
+
+grub2-editenv list (view the deafult boot entry for the grub config file)
+grub2-mkconfig (creates/configs config file)
+update-grub
+
