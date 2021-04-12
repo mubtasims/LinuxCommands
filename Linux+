@@ -1,1 +1,4 @@
+Boot Logs
 
+dmesg (the traditional utility used for viewing the kernel ring buffer)
+journalctl -k (systemd utility to view the kernel ring buffer within the systemd journal)
