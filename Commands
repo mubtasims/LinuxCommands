@@ -103,3 +103,9 @@ ls -al # List all files in a long listing (detailed) format
 pwd # Display the present working directory
 
 mkdir directory # Create a directory
+
+rm file # Remove (delete) file
+
+rm -r directory # Remove the directory and its contents recursively
+
+rm -f file # Force removal of file without prompting for confirmation
