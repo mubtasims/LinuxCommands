@@ -111,3 +111,5 @@ rm -r directory # Remove the directory and its contents recursively
 rm -f file # Force removal of file without prompting for confirmation
 
 rm -rf directory # Forcefully remove directory recursively
+
+cp file1 file2 # Copy file1 to file2
