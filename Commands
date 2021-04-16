@@ -97,7 +97,6 @@ usermod -aG sales john # Add the john account to the sales group
 5 - FILE AND DIRECTORY COMMANDS
 
 
-
 ls -al # List all files in a long listing (detailed) format
 
 pwd # Display the present working directory
