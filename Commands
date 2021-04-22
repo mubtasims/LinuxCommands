@@ -120,3 +120,13 @@ mv file1 file2 # Rename or move file1 to file2 . If file2 is an existing directo
 ln -s /path/to/file linkname # Create symbolic link to linkname
 
 touch file # Create an empty file or update the access and modification times of file.
+
+cat file # View the contents of file
+
+less file # Browse through a text file
+
+head file # Display the first 10 lines of file
+
+tail file # Display the last 10 lines of file
+
+tail -f file # Display the last 10 lines of file and "follow" the file as it grows.
