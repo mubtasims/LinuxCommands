@@ -131,4 +131,7 @@ tail file # Display the last 10 lines of file
 
 tail -f file # Display the last 10 lines of file and "follow" the file as it grows.
 
+
 6 - PROCESS MANAGEMENT
+
+
