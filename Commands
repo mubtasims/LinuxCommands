@@ -135,3 +135,13 @@ tail -f file # Display the last 10 lines of file and "follow" the file as it gro
 6 - PROCESS MANAGEMENT
 
 
+
+ps # Display your currently running processes
+
+ps -ef # Display all the currently running processes on the system.
+
+ps -ef | grep processname # Display process information for processname
+
+top # Display and manage the top processes
+
+htop # Interactive process viewer (top alternative)
