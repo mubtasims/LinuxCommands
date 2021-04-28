@@ -145,3 +145,9 @@ ps -ef | grep processname # Display process information for processname
 top # Display and manage the top processes
 
 htop # Interactive process viewer (top alternative)
+
+kill pid # Kill process with process ID of pid
+
+killall processname # Kill all processes named processname
+
+program & # Start program in the background
