@@ -157,3 +157,12 @@ bg # Display stopped or background jobs
 fg # Brings the most recent background job to foreground
 
 fg n # Brings job n to the foreground
+
+7 - NETWORKING
+
+
+ifconfig -a # Display all network interfaces and ip address
+
+ifconfig eth0 # Display eth0 address and details
+
+ethtool eth0 # Query or control network driver and hardware settings
